@@ -1,5 +1,5 @@
 package UNIVERSAL::require;
-$UNIVERSAL::require::VERSION = '0.11';
+$UNIVERSAL::require::VERSION = '0.12';
 
 # We do this because UNIVERSAL.pm uses CORE::require().  We're going
 # to put our own require() into UNIVERSAL and that makes an ambiguity.
@@ -17,7 +17,7 @@ $Level = 0;
 
 =head1 NAME
 
-  UNIVERSAL::require - require() modules from a variable
+UNIVERSAL::require - require() modules from a variable
 
 =head1 SYNOPSIS
 

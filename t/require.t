@@ -26,8 +26,8 @@ ok( $Dummy::VERSION,                            '  $VERSION ok' );
 {
     my $warning = '';
     local $SIG{__WARN__} = sub { $warning = join '', @_ };
-    eval 'use UNIVERSAL';
-    is( $warning, '',     'use UNIVERSAL doesnt interfere' );
+    eval 'require UNIVERSAL';
+    is( $warning, '',     'loading UNIVERSAL doesnt interfere' );
 }
 
 
