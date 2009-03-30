@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               UNIVERSAL-require
-version:            0.12
+version:            0.13
 abstract:           require() modules from a variable
 author:
     - Michael G Schwern <schwern@pobox.com>
@@ -20,7 +20,9 @@ no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.49_01
+    package:
+        - UNIVERSAL
+generated_by:       ExtUtils::MakeMaker version 6.50
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4

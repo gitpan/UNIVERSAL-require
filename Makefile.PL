@@ -31,5 +31,9 @@ WriteMakefile(
             bugtracker  =>      'http://rt.cpan.org/Public/Dist/Display.html?Name=UNIVERSAL-require',
             repository  =>      'http://svn.schwern.org/repos/CPAN/UNIVERSAL-require/trunk/',
         },
+
+        no_index => {
+            package => ["UNIVERSAL"]
+        },
     }))
 );
