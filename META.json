@@ -4,7 +4,7 @@
       "Michael G Schwern <schwern@pobox.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.72, CPAN::Meta::Converter version 2.132140",
+   "generated_by" : "ExtUtils::MakeMaker version 6.74, CPAN::Meta::Converter version 2.132140",
    "license" : [
       "perl_5"
    ],
@@ -28,11 +28,6 @@
             "ExtUtils::MakeMaker" : "0"
          }
       },
-      "configure" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "0"
-         }
-      },
       "runtime" : {
          "requires" : {
             "Test::More" : "0.47"
@@ -41,12 +36,14 @@
    },
    "release_status" : "stable",
    "resources" : {
-      "bugtracker" : {
-         "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=UNIVERSAL-require"
-      },
       "license" : [
          "http://dev.perl.org/licenses/"
-      ]
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/neilbowers/UNIVERSAL-require.git",
+         "web" : "https://github.com/neilbowers/UNIVERSAL-require"
+      }
    },
-   "version" : "0.14"
+   "version" : "0.15"
 }
