@@ -1,5 +1,5 @@
 package UNIVERSAL::require;
-$UNIVERSAL::require::VERSION = '0.15';
+$UNIVERSAL::require::VERSION = '0.15_01';
 
 # We do this because UNIVERSAL.pm uses CORE::require().  We're going
 # to put our own require() into UNIVERSAL and that makes an ambiguity.
@@ -8,7 +8,9 @@ BEGIN { require UNIVERSAL }
 
 package UNIVERSAL;
 
+use 5.006;
 use strict;
+use warnings;
 
 use vars qw($Level);
 $Level = 0;
