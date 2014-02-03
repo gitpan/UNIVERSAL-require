@@ -40,7 +40,7 @@
          }
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "license" : [
          "http://dev.perl.org/licenses/"
@@ -51,5 +51,5 @@
          "web" : "https://github.com/neilbowers/UNIVERSAL-require"
       }
    },
-   "version" : "0.15_01"
+   "version" : "0.16"
 }
