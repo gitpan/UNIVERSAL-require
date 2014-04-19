@@ -4,7 +4,7 @@
       "Michael G Schwern <schwern@pobox.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.86, CPAN::Meta::Converter version 2.133380",
+   "generated_by" : "ExtUtils::MakeMaker version 6.94, CPAN::Meta::Converter version 2.133380",
    "license" : [
       "perl_5"
    ],
@@ -35,6 +35,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
             "Test::More" : "0.47",
             "perl" : "5.006"
          }
@@ -51,5 +52,5 @@
          "web" : "https://github.com/neilbowers/UNIVERSAL-require"
       }
    },
-   "version" : "0.16"
+   "version" : "0.17"
 }
